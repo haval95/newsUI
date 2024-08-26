@@ -21,7 +21,7 @@ Ensure you have the following installed on your machine:
 First, clone the repository to your local machine:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/haval95/newsUI.git
 cd news-app
 
 ```
