@@ -1,5 +1,39 @@
-<<<<<<< HEAD
+
 # Getting Started with Create React App
+
+# News App
+
+A React-based application for displaying news articles. This project can be run using Docker or directly with Node.js using npm or yarn.
+
+## Prerequisites
+
+Ensure you have the following installed on your machine:
+
+- **Git**: [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- **Docker** (optional): [Install Docker](https://docs.docker.com/get-docker/)
+- **Node.js** (v16 or higher): [Install Node.js](https://nodejs.org/)
+  - Node.js comes with npm, but you can also install yarn if preferred: [Install Yarn](https://classic.yarnpkg.com/en/docs/install)
+
+## Getting Started
+
+### 1. Clone the Repository
+
+First, clone the repository to your local machine:
+
+```bash
+git clone <repository_url>
+cd news-app
+
+```
+### 2. Running the app
+```bash
+docker build -t my-app-image .
+```
+```bash
+docker run -p 3000:3000 my-app-image
+```
+
+--> http://localhost:3000.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
